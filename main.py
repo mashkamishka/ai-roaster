@@ -10,7 +10,7 @@ api_key = "AIzaSyCPeGScXVvnYfOVyskmgIDaDsO0PSATgVA"
 genai.configure(api_key=api_key)
 
 # We use the flash model because it's fast and free
-model = genai.GenerativeModel("gemini-3-flash-preview")
+model = genai.GenerativeModel("gemini-3.1-flash-lite-preview")
 
 # ==========================================
 # 2. THE FRONTEND (Designing the Page)
