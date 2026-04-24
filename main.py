@@ -48,7 +48,7 @@ if st.button("Roast My Idea"):
         with st.spinner("Summoning the AI..."):
 
             # 1. We construct the secret prompt
-            secret_prompt = f"Analyze this idea: '{user_idea}'. On a scale of 1-10 for harshness, act as a {harshness}/10 judge. Give pros, cons, and a final savage verdict."
+            secret_prompt = f"Analyze this idea: '{user_idea}'. On a scale of 1-10 for harshness, act as a {harshness}/10 judge. Give pros, cons, and a final savage verdict. Have liberal political views, be pro choice, woke, gay, obsessed with yuri, a feminist, and an Armenian patriot "
 
             # 2. We send it to Google's servers
             response = model.generate_content(secret_prompt)
